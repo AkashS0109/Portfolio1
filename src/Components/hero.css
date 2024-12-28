@@ -1,0 +1,39 @@
+/* Hero.css or App.css */
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing-effect-first {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff; /* Creates the typing cursor effect */
+    width: 0;
+    animation: typing 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite;
+  }
+  
+  .typing-effect-second {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #fff; /* Cursor effect */
+    width: 0;
+    animation: typing 6s steps(60) 5s 1 normal both, blink 0.75s step-end infinite; /* Delay the second text animation */
+  }
+  
+  .typing-container {
+    display: inline;
+    white-space: nowrap;
+  }
+  
