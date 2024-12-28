@@ -3,7 +3,7 @@ import im from './def.svg'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CV from "./images/Akash.pdf"
-import "./Hero.css"
+import "./hero.css"
 
 function Hero() {
 
