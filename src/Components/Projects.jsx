@@ -50,7 +50,7 @@ function Projects() {
                 </div>
               </div>
               <div className="flex 2xl:mt-4 text-white">
-                <p className="text-left xs:text-sm md:text-2xl xs:leading-5 p-2">{project.desc}</p>
+                <p className="text-left xs:text-sm md:text-2xl xs:leading-5 p-2 rounded-b-lg">{project.desc}</p>
               </div>
             </div>
             </div>
