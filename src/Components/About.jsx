@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className=' text-white md:p-10 pt-6 2xl:p-20 2xl:px-15   '>
        <p className='2xl:text-3xl md:text-2xl  md:leading-9 2xl:leading-10 '>
-       I am an MCA graduate and a passionate full-stack web developer with a strong foundation in building dynamic and responsive web applications.I thrive on the challenge of analyzing complex problems and the satisfaction of crafting efficient solutions.
+       I am  MCA graduate and a passionate full-stack web developer with a strong foundation in building dynamic and responsive web applications.I thrive on the challenge of analyzing complex problems and the satisfaction of crafting efficient solutions.
       My core tech stack includes<span className='font-bold'> React.js</span>,<span className='font-bold'> Node.js</span>,<span className='font-bold'>Expres.js </span>and <span className='font-bold'>MongoDB</span>.Also proficient in other Languages like C++,Java(core).
       I'm always ready to leran new technologies and frameworks and to collaborate with like-minded individuals to create innovative and impactful projects.
 I am currently seeking a full-time position as a software developer where I can contribute my skills, grow professionally, and tackle exciting challenges with innovative solutions.

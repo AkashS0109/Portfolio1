@@ -34,14 +34,15 @@ function Projects() {
           </div>
           {data.map((project) => (
           <div className='my-10 border-2 border-gray-50 xl:rounded-2xl rounded-xl hover:shadow-lg hover:shadow-white hover:data-aos="zoom-in"' >
-          <div className="flex flex-wrap   2xl:p-2 hover:[background-color:#0a112b]">
+          <div className="flex flex-wrap   2xl:p-2 hover:[background-color:#0a112b] rounded-b-2xl">
+          
             <div className="2xl:w-1/2 h-auto">
               <img className="w-full h-full object-cover rounded-t-lg" src={project.img} alt={project.project_name} />
             </div>
             <div className="2xl:w-1/2 p-3">
-              <div className="text-white flex justify-between items-center 2xl:mt-1">
+              <div className="text-white flex justify-between items-center 2xl:mt-1 ">
                 <h1 className="font-bold text-lg 2xl:text-3xl p-2 lg:text-3xl">{project.project_name}</h1>
-                <div className="flex justify-center items-center gap-5">
+                <div className="flex justify-center items-center gap-5 ">
                   {/* Add a clickable link for the project */}
                   <a href={project.web} target="_blank" rel="noopener noreferrer">
                     <img className="w-6" src={internet} alt="Web link" />
@@ -49,8 +50,8 @@ function Projects() {
                   <GitHubIcon fontSize="medium" />
                 </div>
               </div>
-              <div className="flex 2xl:mt-4 text-white">
-                <p className="text-left xs:text-sm md:text-2xl xs:leading-5 p-2 rounded-b-lg">{project.desc}</p>
+              <div className="flex 2xl:mt-4 text-white ">
+                <p className="text-left xs:text-sm md:text-2xl xs:leading-5 p-2 ">{project.desc}</p>
               </div>
             </div>
             </div>
